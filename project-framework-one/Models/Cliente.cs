@@ -20,19 +20,19 @@ namespace project_framework_one.Models
         [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
         public string Endereco { get; set; }
         [Required]
-        [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
+        [MinLength(2, ErrorMessage = "Bairro" +
+            " invalido"), MaxLength(35, ErrorMessage = "Bairro invalido")]
         public string Bairro { get; set; }
         [Required]
-        [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
+        [MinLength(2, ErrorMessage = "Cep invalido"), MaxLength(35, ErrorMessage = "CEP invalido")]
         public string CEP { get; set; }
         [Required]
-        [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
+        [MinLength(2, ErrorMessage = "Cidade invalido"), MaxLength(35, ErrorMessage = "Cidade invalido")]
         public string Cidade { get; set; }
         [Required]
-        [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
+        [MinLength(2, ErrorMessage = "UF invalido"), MaxLength(35, ErrorMessage = "UF invalido")]
         public string UF { get; set; }
         [Required]
-        [MinLength(2, ErrorMessage = "Endereço invalido"), MaxLength(35, ErrorMessage = "Endereço invalido")]
         public int PagamentoId { get; set; }
         public Pagamento Pagamento { get; set; }
     }

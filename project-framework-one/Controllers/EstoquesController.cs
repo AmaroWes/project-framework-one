@@ -176,10 +176,10 @@ namespace project_framework_one.Controllers
         public IActionResult Report()
         {
             var estoque = _context.Estoque
-                .Include(e => e.Fornecedor)
-                .Include(e => e.Ingrediente)
+                .Include("Fornecedor")
+                .Include("Ingrediente")
                 .ToList();
-            ViewData["EmFalta"] = estoque;
+            var estoqueFiltrado = estoque.Where(e => e.Ingrediente.Qtde <= 3);
 
             if (estoque == null)
             {
@@ -187,7 +187,7 @@ namespace project_framework_one.Controllers
             }
             
             //ViewData["EmFalta"] = "Nenhum ingrediente em falta";
-            return View();
+            return View(estoqueFiltrado);
         }
     }
 }

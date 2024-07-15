@@ -10319,19 +10319,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amaro\\.nuget\\packages\\": {}
+    "C:\\Users\\801300280\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amaro\\Desktop\\project-framework-one\\project-framework-one\\project-framework-one.csproj",
+      "projectUniqueName": "C:\\Users\\801300280\\Documents\\Workstation\\project-framework-one\\project-framework-one\\project-framework-one.csproj",
       "projectName": "project-framework-one",
-      "projectPath": "C:\\Users\\Amaro\\Desktop\\project-framework-one\\project-framework-one\\project-framework-one.csproj",
-      "packagesPath": "C:\\Users\\Amaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amaro\\Desktop\\project-framework-one\\project-framework-one\\obj\\",
+      "projectPath": "C:\\Users\\801300280\\Documents\\Workstation\\project-framework-one\\project-framework-one\\project-framework-one.csproj",
+      "packagesPath": "C:\\Users\\801300280\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\801300280\\Documents\\Workstation\\project-framework-one\\project-framework-one\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Amaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\801300280\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10351,11 +10351,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10396,7 +10391,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
