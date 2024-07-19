@@ -29,8 +29,13 @@ namespace project_framework_one.Models
         public string CEP { get; set; }
         [Required]
         public string Cidade { get; set; }
-        [Required]
-        public string UF { get; set; }
 
+        public EnumUF UF { get; set; }
+
+        public enum EnumUF
+        {
+            RS,
+            RJ,
+        }
     }
 }

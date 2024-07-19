@@ -40,7 +40,7 @@
                 @Html.DisplayNameFor(model => model.Cidade)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.UF)
+                @Html.DisplayNameFor(model => model.GetUF())
             </th>
             <th></th>
         </tr>
@@ -76,7 +76,7 @@
                 @Html.DisplayFor(modelItem => item.Cidade)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UF)
+                @Html.DisplayFor(modelItem => item.GetUF())
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
